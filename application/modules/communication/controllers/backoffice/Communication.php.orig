@@ -1,0 +1,61 @@
+<?php
+if (!defined('BASEPATH')) exit('No direct script access allowed');
+class Communication extends MX_Controller {
+
+    public function __construct() {
+        $this->load->model('communication/backoffice/communication_model');
+        $this->load->library(array('form_validation', "upload"));
+        $this->load->library('image_lib');
+
+    }
+    public function setting() {
+
+        if(!$this->session->userdata('user'))
+		{
+			redirect(base_url()."admin/login");
+		}
+        else{
+
+            $data['error'] = "";
+            $data['class'] = 'communication-calss';
+            $data['admin_details'] = $this->communication_model->admin_details();
+            // echo "<pre>";print_r($data['admin_details']);die;
+            $this->layout->view('communication/backoffice/setting','',$data,'normal');
+        }
+    }
+
+<<<<<<< HEAD
+    public function updatesetting()
+=======
+    public function settinginsert()
+>>>>>>> bad57ffafb89bbf0c59463724293940d5afbf345
+    {
+        $contact_form = $this->input->post('contact_form');
+        $form_heading = $this->input->post('form_heading');
+        $success_msg = $this->input->post('success_msg');
+        $google_recaptcha_on = $this->input->post('google_recaptcha_on');
+        $google_map_on = $this->input->post('google_map_on');
+        $contact_address = $this->input->post('contact_address');
+        $email_subject = $this->input->post('email_subject');
+<<<<<<< HEAD
+=======
+        $email_template = $this->input->post('email_template');
+>>>>>>> bad57ffafb89bbf0c59463724293940d5afbf345
+        $to_mail = $this->input->post('to_mail');
+        $cc_mail = $this->input->post('cc_mail');
+        $bcc_mail = $this->input->post('bcc_mail');
+        $no_reply_email = $this->input->post('no_reply_email');
+
+        
+
+    }
+<<<<<<< HEAD
+
+=======
+
+
+   
+>>>>>>> bad57ffafb89bbf0c59463724293940d5afbf345
+
+}
+

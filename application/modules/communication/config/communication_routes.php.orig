@@ -1,0 +1,9 @@
+<?php
+
+$route['admin/communication/setting'] = 'communication/backoffice/communication/setting';
+<<<<<<< HEAD
+$route['admin/communication/updatesetting'] = 'communication/backoffice/communication/updatesetting';
+=======
+$route['admin/communication/settinginsert'] = 'communication/backoffice/communication/settinginsert';
+>>>>>>> bad57ffafb89bbf0c59463724293940d5afbf345
+

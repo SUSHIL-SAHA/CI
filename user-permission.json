@@ -1,0 +1,120 @@
+{
+    "sitesettings": {
+        "checked": "on",
+        "add": "on",
+        "edit": "on",
+        "delete": "on",
+        "list": "on"
+    },
+    "plugins": {
+        "checked": "on",
+        "add": "on",
+        "edit": "on",
+        "delete": "on",
+        "list": "on"
+    },
+    "cms": {
+        "inner": {
+            "pages": {
+                "checked": "on",
+                "add": "on",
+                "edit": "on",
+                "delete": "on",
+                "list": "on"
+            },
+            "custom-fields": {
+                "checked": "on",
+                "add": "on",
+                "edit": "on",
+                "delete": "on",
+                "list": "on"
+            }
+        }
+    },
+    "banner": {
+        "inner": {
+            "homebanner": {
+                "checked": "on",
+                "add": "on",
+                "edit": "on",
+                "delete": "on",
+                "list": "on"
+            },
+            "innerbanner": {
+                "checked": "on",
+                "add": "on",
+                "edit": "on",
+                "delete": "on",
+                "list": "on"
+            }
+        }
+    },
+    "communication": {
+        "inner": {
+            "contact-mail": {
+                "checked": "on",
+                "add": "on",
+                "edit": "on",
+                "delete": "on",
+                "list": "on"
+            },
+            "communicationsettings": {
+                "checked": "on",
+                "add": "on",
+                "edit": "on",
+                "delete": "on",
+                "list": "on"
+            }
+        }
+    },
+    "seo": {
+        "inner": {
+            "default-home": {
+                "checked": "on",
+                "add": "on",
+                "edit": "on",
+                "delete": "on",
+                "list": "on"
+            },
+            "title-meta": {
+                "checked": "on",
+                "add": "on",
+                "edit": "on",
+                "delete": "on",
+                "list": "on"
+            }
+        }
+    },
+    "service": {
+        "inner": {
+            "allservice": {
+                "checked": "on",
+                "add": "on",
+                "edit": "on",
+                "delete": "on",
+                "list": "on"
+            },
+            "servicecategory": {
+                "checked": "on",
+                "add": "on",
+                "edit": "on",
+                "delete": "on",
+                "list": "on"
+            },
+            "service-inquiry": {
+                "checked": "on",
+                "add": "on",
+                "edit": "on",
+                "delete": "on",
+                "list": "on"
+            }
+        }
+    },
+    "about-1": {
+        "checked": "on",
+        "add": "on",
+        "edit": "on",
+        "delete": "on",
+        "list": "on"
+    }
+}
